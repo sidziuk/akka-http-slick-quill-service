@@ -1,0 +1,1 @@
+docker run --name myMariaDb -p 5455:3306 --env MARIADB_ROOT_PASSWORD=root -d mariadb:10.11.2-jammy
